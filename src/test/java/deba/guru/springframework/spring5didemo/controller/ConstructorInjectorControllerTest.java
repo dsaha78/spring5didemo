@@ -17,7 +17,7 @@ public class ConstructorInjectorControllerTest {
 
 	@Test
 	public void testSayHello() {
-		assertEquals(GreetingServiceImpl.HEELO_GREETINGS, constructorInjectorController.sayHello());
+		assertEquals(GreetingServiceImpl.HELLO_GREETINGS, constructorInjectorController.sayHello());
 	}
 
 }

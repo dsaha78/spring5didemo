@@ -1,7 +1,13 @@
 package deba.guru.springframework.spring5didemo.service;
 
-public interface GetterGreetingServiceImpl {
+public class GetterGreetingServiceImpl implements GreetingService{
 
-	String sayGreetings();
+	public static String GETTER_HELLO_GREETINGS = "Hello World !!!!!";
+
+	@Override
+	public String sayGreetings() {
+
+		return GETTER_HELLO_GREETINGS;
+	}
 	
 }

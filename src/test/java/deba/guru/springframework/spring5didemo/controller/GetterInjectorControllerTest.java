@@ -19,7 +19,7 @@ public class GetterInjectorControllerTest {
 
 	@Test
 	public void testSayHello() {
-		assertEquals(GreetingServiceImpl.HEELO_GREETINGS, getterInjectedController.sayHello());
+		assertEquals(GreetingServiceImpl.HELLO_GREETINGS, getterInjectedController.sayHello());
 	}
 
 }

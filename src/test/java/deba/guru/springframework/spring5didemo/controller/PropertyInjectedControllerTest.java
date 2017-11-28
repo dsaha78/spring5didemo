@@ -20,7 +20,7 @@ public class PropertyInjectedControllerTest {
 
 	@Test
 	public void testSayHello() {
-		assertEquals(GreetingServiceImpl.HEELO_GREETINGS, propertyInjectedController.sayHello());
+		assertEquals(GreetingServiceImpl.HELLO_GREETINGS, propertyInjectedController.sayHello());
 	}
 
 }
