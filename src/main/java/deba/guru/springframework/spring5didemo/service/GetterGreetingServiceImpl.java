@@ -1,6 +1,9 @@
 package deba.guru.springframework.spring5didemo.service;
 
-public class GetterGreetingServiceImpl implements GreetingService{
+import org.springframework.stereotype.Service;
+
+@Service
+public class GetterGreetingServiceImpl implements GreetingService { 
 
 	public static String GETTER_HELLO_GREETINGS = "Hello World !!!!!";
 
